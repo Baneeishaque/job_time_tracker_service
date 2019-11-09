@@ -16,7 +16,7 @@ public class DBhandler
         }
     }
 
-    public string SingleInsert(String query)
+    public string SingleInsertUpdate(String query)
     {
         if (con != null)
         {
